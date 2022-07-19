@@ -1,0 +1,80 @@
+/* Navigation wrapper styles */
+.navigation-wrapper {
+    height: 180px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 600px;
+}
+
+.navigation-wrapper > .logo-image img {
+    width: 250px;
+    height: 100%;
+    padding-left: 40px;
+}
+
+/* Link wrappers */
+.links-wrapper {
+    padding-left: 20px;
+}
+
+.links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 900;
+    font-size: 1.25em;
+    font-family: "Lato", sans-serif;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #5c5c5c;
+    transition: 0.5s;
+}
+
+.links-wrapper > .spark a {
+    color: #949191;
+    text-decoration: none;
+}
+
+.links-wrapper > .spark a:hover {
+    color: #454040;
+    transition: 0.5s;
+}
+
+/* Misc wrappers */
+.down i {
+    color: #949191;
+    padding: 3px;
+    text-align: end;
+}
+
+.spark {
+    font-size: 1.25em;
+    padding-left: 30px;
+}
+
+.spark > .down i:hover{
+    color: #454040;
+    transition: 0.5s;
+}
+
+.down {
+    display: inline-block;
+}
+
+.explore {
+    color: #e7d37a;
+    position: absolute;
+    top: 20px;
+    padding-inline-start: 15px;
+}
+
+.navigation-wrapper {
+    position: relative;
+}
